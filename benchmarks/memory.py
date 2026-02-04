@@ -67,6 +67,7 @@ def benchmark_memory(
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
+            min_new_tokens=max_new_tokens,
             do_sample=False,
             pad_token_id=tokenizer.pad_token_id,
         )
