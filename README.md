@@ -50,7 +50,7 @@ python run_benchmark.py --compare-models --quantization fp16
 
 ```python
 # Install dependencies
-!pip install -q torch transformers accelerate bitsandbytes auto-gptq
+!pip install -q torch transformers accelerate bitsandbytes
 
 # Clone repository
 !git clone https://github.com/YOUR_USERNAME/LLM-Inference-Bench.git
